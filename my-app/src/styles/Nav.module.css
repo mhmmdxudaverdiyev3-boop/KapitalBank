@@ -1,3 +1,4 @@
+/* SƏNİN MÖVCUD CSS KODLARIN */
 .logo {
   display: flex;
   align-items: center;
@@ -40,5 +41,87 @@
   background: white;
   color: #ed1c24;
   font-size: 22px;
+  cursor: pointer;
+}
+
+/* AXTARIŞ ZOLAĞI ÜÇÜN ƏLAVƏ CSS */
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 28%;
+  right: 11%;
+  top: 22px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.searchIcon {
+  font-size: 22px;
+  color: #333;
+}
+
+.searchBox input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  color: #333;
+}
+
+.searchBox input::placeholder {
+  color: #aaa;
+}
+
+.searchActions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.searchBtn {
+  background: none;
+  border: none;
+  color: #ed1c24;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.closeBtn {
+  background: #a2a2a2;
+  color: white;
+  border: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.quickTags {
+  position: absolute;
+  left: 28%;
+  top: 75px;
+  display: flex;
+  gap: 10px;
+}
+
+.quickTags button {
+  background-color: #eef2f5;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #333;
   cursor: pointer;
 }

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Nav from './components/Nav'
 import NavBar from './components/NavBar'
+import Slider from './components/Slider'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <>
   <Nav/>
   <NavBar/>   
+  <Slider/>
     </>
   )
 }

@@ -15,20 +15,19 @@
   padding-left: 180px;
 }
 
-.navItem {
-  position: relative; 
-}
+
 
 .banner {
   display: none; 
   position: absolute;
   top: 100%;
   left: 0;
+  right: 0;
   background: #fff;
   border: 1px solid #ddd;
   padding: 10px;
-  width: 1000px;
-  height: 100px;
+  width: 100%;
+  height: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 100;
 }
@@ -42,8 +41,61 @@
     margin-top: 100px;
     background-color: #E8ECF1;
     min-height: 80px;
+    position: relative; 
 }
 
 .navItem a{
    color: black;
 }
+
+.kart{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.kart_n{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.kartService {
+  display: flex;
+  gap: 80px;
+  margin-top: 45px;
+  margin-left: 170px;
+}
+
+.kartService a {
+  font-size: 16px;
+}
+
+.post{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+}
+
+.banner1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  display: flex ;
+  justify-content: space-between;
+  background-color: #F4F4F4 ;
+  width: 600px ;
+  height: 288px;
+}
+
+.credit{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
