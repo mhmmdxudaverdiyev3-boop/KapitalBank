@@ -7,7 +7,7 @@ const Slider = () => {
 
 const sliderData =[
 
-{write1:"İndi al, sonra ödə", picture1: {telShop}},
+{write1:"İndi al, sonra ödə", picture1: "telShop"},
 {write2:"Nağd kreditin maksimal məbləğini artırdıq", picture2: "credit"},
 {write3:"İndi al, sonra ödə", picture3: "telShop"},
 {write4:"Nağd kreditin maksimal məbləğini artırdıq", picture4: "credit"},
