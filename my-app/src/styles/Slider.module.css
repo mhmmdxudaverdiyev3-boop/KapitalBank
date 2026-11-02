@@ -10,6 +10,8 @@
     flex-direction: column;
     gap: 15px;
     justify-content: center;
+    height: 400px;
+    width: 270px;
 }
 
 .btn{
@@ -33,3 +35,9 @@
     color: gray;
     margin-top: 370px;
 }
+
+.picOne{
+    height: 200px;
+    width: 200px;
+}
+

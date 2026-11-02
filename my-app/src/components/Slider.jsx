@@ -8,7 +8,7 @@ const Slider = () => {
 
 const sliderData =[
 
-{write1:"İndi al, sonra ödə", picture1: telShop},
+{write1:"İndi al, sonra ödə", picture1: telShop , teg1:"Trendyolda rahatlıqla alış-veriş et" , button1: "alış-veriş et"},
 {write2:"Nağd kreditin maksimal məbləğini artırdıq", picture2: credit},
 
 
@@ -39,16 +39,21 @@ const handleBefore = () => {
 <div className= {styles.buy}>
 
 <h2>{sliderData[cariIndex].write1}</h2>
-<p>Trendyolda rahatlıqla alış-veriş et</p>
-<button className= {styles.btn}>alış-veriş et</button>
+<p>{sliderData[cariIndex].teg1}</p>
+<button className= {styles.btn}>{sliderData[cariIndex].button1}</button>
 
 </div>
-
-<img src={sliderData[cariIndex].picture1} alt="#" />
+<div className= {styles.picOne}>
+  <div>
+    <img src={sliderData[cariIndex].picture1} alt="#" />
+  </div>
+</div>
 
 <div className= {styles.sliders}>
+
 <button onClick={handleBefore}>Geri</button>
 <button onClick={handleNext}>İrəli</button>
+
 </div>
 
 </div> 
