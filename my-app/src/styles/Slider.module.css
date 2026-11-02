@@ -1,0 +1,35 @@
+.data{
+    background-color: #E8ECF1;
+    height: 420px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buy{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    width: 270px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.buy h2 {
+    font-size: 36px;
+}
+
+.sliders button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    color: gray;
+    margin-top: 370px;
+}

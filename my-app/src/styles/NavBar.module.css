@@ -98,4 +98,7 @@
   flex-direction: column;
 }
 
-
+.free{
+  background-color: white;
+  height: 3px;
+}

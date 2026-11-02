@@ -203,6 +203,8 @@ const NavBar = () => {
           </li>
         </ul>
       </nav>
+      
+      <div className={styles.free}></div>
     </>
   );
 };
