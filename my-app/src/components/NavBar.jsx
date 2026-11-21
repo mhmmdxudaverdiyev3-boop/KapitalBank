@@ -15,7 +15,7 @@ const NavBar = () => {
           <li className={styles.navItem}>
             <a href="#">KARTLAR</a>
             <div className={styles.banner}>
-              <p>
+              <div>
               <div className= {styles.banner1}>
                <div className={styles.kartService}> 
                 <div className= {styles.kart}>
@@ -48,14 +48,14 @@ const NavBar = () => {
                 </div>
                </div>
               </div>   
-              </p>
+              </div>
             </div>
           </li>
 
           <li className={styles.navItem}>
             <a href="#">KREDİTLƏR</a>
             <div className={styles.banner}>
-                <p>
+                <div>
                   <div>
                   <div className= {styles.banner1}>
                     <div className={styles.kartService}> 
@@ -82,26 +82,26 @@ const NavBar = () => {
                     </div>
                   </div>
                   </div>
-                </p>
+                </div>
             </div>
           </li>
 
           <li className={styles.navItem}>
-            <a href="#">IPOTEKALAR</a>
+            <a href="#">İPOTEKALAR</a>
           </li>
 
           <li className={styles.navItem}>
             <a href="#">ƏMANƏTLƏR</a>
             <div className={styles.banner}>
-                <p>
+                <div>
                   <div className= {styles.banner1}>
                     <div className={styles.kartService}> 
                      <div className= {styles.kart}>
-                      <a href="#">Depozit</a>
-                      <a href="#">Yığım hesabı</a>
-                      <a href="#">Müddətsiz depozit</a>
-                      <a href="#">Depozit seyfləri</a>
-                     </div>
+                       <a href="#">Depozit</a>
+                       <a href="#">Yığım hesabı</a>
+                       <a href="#">Müddətsiz depozit</a>
+                       <a href="#">Depozit seyfləri</a>
+                      </div>
                     </div>
                   <div className= {styles.container}>
                     <div className= {styles.credit}>
@@ -118,7 +118,7 @@ const NavBar = () => {
                     </div>
                   </div>
                   </div>
-                </p>
+                </div>
             </div>
           </li>
 
@@ -130,7 +130,7 @@ const NavBar = () => {
           <li className={styles.navItem}>
             <a href="#">PUL KÖÇÜRMƏLƏRİ</a>
             <div className={styles.banner}>
-                <p>
+                <div>
                   <div className= {styles.banner1}>
                     <div className={styles.kartService}> 
                        <div className= {styles.kart}>
@@ -155,14 +155,14 @@ const NavBar = () => {
                       </div>
                     </div>
                   </div>
-                </p>
+                </div>
             </div>
           </li>
 
           <li className={styles.navItem}>
             <a href="#">ONLAYN XİDMƏTLƏR</a>
             <div className={styles.banner}>
-                <p>
+                <div>
                   <div className= {styles.banner1}>
                     <div className={styles.kartService}> 
                        <div className= {styles.kart}>
@@ -188,7 +188,7 @@ const NavBar = () => {
                       </div>
                     </div>
                   </div>
-                </p>
+                </div>
             </div>
           </li>
 
@@ -209,4 +209,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar; 
+export default NavBar;
