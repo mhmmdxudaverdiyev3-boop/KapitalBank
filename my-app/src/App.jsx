@@ -3,6 +3,9 @@ import './App.css'
 import Nav from './components/Nav'
 import NavBar from './components/NavBar'
 import Slider from './components/Slider'
+import Order from './components/Order'
+import cardInfo from './components/cardInfo'
+
 
 function App() {
   
@@ -12,6 +15,8 @@ function App() {
   <Nav/>
   <NavBar/>   
   <Slider/>
+  <Order/>
+  <cardInfo/>
     </>
   )
 }

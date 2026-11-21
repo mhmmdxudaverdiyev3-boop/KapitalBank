@@ -1,43 +1,81 @@
-.data{
+.data {
     background-color: #E8ECF1;
     height: 420px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
+    position: relative;
+    padding: 0 40px;
 }
 
-.buy{
+.buy {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    justify-content: center;
-    height: 400px;
-    width: 270px;
+    max-width: 400px;
 }
 
-.btn{
-    background-color: red;
+.max {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+}
+
+.buy h2, .max h2 {
+    font-size: 36px;
+    color: #111;
+}
+
+.buy p {
+    color: #555;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #ff4757;
+    border: none;
     border-radius: 10px;
     color: white;
-    width: 270px;
+    width: 200px;
     height: 50px;
     font-size: 18px;
+    cursor: pointer;
 }
 
-.buy h2 {
-    font-size: 36px;
+.picOne {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.sliders button{
+.picOne img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.sliders {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.sliders button {
     width: 40px;
     height: 40px;
-    border-radius: 100%;
+    border-radius: 50%;
+    border: none;
     background-color: white;
     color: gray;
-    margin-top: 370px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.picOne{
-    height: 200px;
-    width: 200px;
+.sliders button:hover {
+    background-color: #f0f0f0;
 }
-

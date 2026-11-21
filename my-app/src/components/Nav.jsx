@@ -21,7 +21,7 @@ const Nav = () => {
       </div>
 
       {isSearchOpen ? (
-        /* AXTARIŞ PANELİ AÇIQ OLDUQDA */
+
         <div className={styles.searchContainer}>
           <form className={styles.searchBox} onSubmit={handleSearch}>
             <span className={styles.searchIcon}>⌕</span>
@@ -50,7 +50,7 @@ const Nav = () => {
           </div>
         </div>
       ) : (
-        /* SƏNİN MÖVCUD MENYUN */
+  
         <div className={styles.menu}>
           <a href="#">Fiziki</a>
           <a href="#">Biznes</a>
@@ -62,7 +62,7 @@ const Nav = () => {
         </div>
       )}
 
-      {/* AXTARIŞ AÇIQ OLDUQDA AŞAĞIDA ÇIXAN TEQLƏR */}
+    
       {isSearchOpen && (
         <div className={styles.quickTags}>
           <button>Birbank kartı al</button>
